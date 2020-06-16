@@ -24,7 +24,7 @@ function changeRadius() {
     cube.style.borderRadius = inputTopLeft.value + 'px ' + inputTopRight.value + 'px ' + inputBottomLeft.value
         + 'px ' + inputBottomRight.value + 'px ';
 
-    borderText.value = 'Border radius: ' + inputTopLeft.value + 'px ' + inputTopRight.value + 'px '
+    borderText.value = 'border-radius: ' + inputTopLeft.value + 'px ' + inputTopRight.value + 'px '
         + inputBottomLeft.value + 'px ' + inputBottomRight.value + 'px' + ';';
 }
 
